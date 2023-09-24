@@ -1,1 +1,80 @@
+:root {
+  --white: hsl(0, 0%, 100%);
+  --lightGray: hsl(212, 45%, 89%);
+  --grayishBlue: hsl(220, 15%, 55%);
+  --darkBlue: hsl(218, 44%, 22%);
 
+  --paleBlue: hsl(225, 100%, 94%);
+  --brightBlue: hsl(245, 75%, 52%);
+  --veryPaleBlue: hsl(225, 100%, 98%);
+  --desaturatedBlue: hsl(224, 23%, 55%);
+  --darkBlue2: hsl(223, 47%, 23%);
+}
+
+body {
+  font-family: 'Red Hat Display', 'Outfit', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+  align-items: center;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: var(--paleBlue);
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center;
+}
+
+
+h3 {
+  color: var(--darkBlue);
+}
+p {
+  color: var(--grayishBlue);
+}
+
+.bold {
+  font-weight: 700;
+}
+.veryBold {
+  font-weight: 900;
+}
+.frame {
+  max-width: 300px;
+  background-color: var(--white);
+  border-radius: 15px;
+  padding: 0px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  
+}
+
+
+.option1 {
+  display: flex;
+  background-color: white;
+  max-width: 200px;
+  border-radius: 15px;
+  align-content: center;
+  padding: 5px;
+  justify-content: space-evenly;
+}
+.image1 {
+  max-width: 300px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+
+}
+.image2 {
+width: auto;
+height: 50px;
+}
+.text1 {
+
+}
+.text2 {
+  
+}
